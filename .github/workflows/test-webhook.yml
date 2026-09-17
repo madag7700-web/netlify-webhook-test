@@ -15,7 +15,7 @@ jobs:
             --connect-timeout 20 \
             --max-time 60 \
             -X POST \
-            "URL_NETLIFY_KAMU/webhook-test" \
+            "https://ephemeral-selkie-278d31.netlify.app//webhook-test" \
             -H "Content-Type: application/json" \
             -H "User-Agent: GitHubActions-Netlify-Test/1.0" \
             --data '{"test":true,"source":"github-actions","message":"EXTERNAL_SERVER_TEST"}'
